@@ -41,5 +41,19 @@ public class Operaciones {
     public void setB(int b) {
         this.b = b;
     }
+
+    String suma(String a, String b) {
+        return a+b;
+    }
+
+    int[] suma(int[] a, int[] b) {
+        int[] auxi=new int[a.length];
+        for (int i = 0; i < a.length ; i++) {
+            auxi[i] = a[i]+b[i];
+        }
+        return auxi;
+    }
+
+    
     
 }
