@@ -28,7 +28,8 @@ public class OperacionesTest {
     @Test
     public void testResta() {
         int resultado = op.resta(1,4);
-        assertEquals(8,resultado);
+        int esperado = 3;
+        assertEquals(3,resultado);
     }
     
     
