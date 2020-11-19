@@ -26,7 +26,11 @@ public class Tarea2 {
         n1 = scn.nextInt();
         System.out.print("·introduzca un otro numero:");
         n2 = scn.nextInt();
-        op.suma(n1, n2);
+        System.out.println("La suma es: " + op.suma(n1, n2));
+        System.out.println("La resta es: " + op.resta(n1, n2));
+        System.out.println("La multi es: " + op.multiplicacion(n1, n2));
+        System.out.println("La division es: " + op.division(n1, n2));
+
     }
 
 }

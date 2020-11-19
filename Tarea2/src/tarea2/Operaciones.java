@@ -28,7 +28,17 @@ public class Operaciones {
     public int resta(int a, int b){
         return a-b;
     }
-
+    
+    public int multiplicacion(int a, int b){
+        return a*b;
+    }
+    
+    public double division(int a, int b){
+        if(a == 0) return 0;
+        if(b == 0) return 0;
+        return (double) a / b;
+    }
+    
     public int getA() {
         return a;
     }

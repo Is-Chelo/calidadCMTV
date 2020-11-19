@@ -28,9 +28,27 @@ public class OperacionesTest {
     @Test
     public void testResta() {
         int resultado = op.resta(1,4);
-        int esperado = 3;
-        assertEquals(3,resultado);
+        int esperado = -3;
+        assertEquals(esperado,resultado);
+    }
+    @Test
+    public void testMultiplicacion() {
+        int resultado = op.multiplicacion(1,4);
+        int esperado = 4;
+        assertEquals(esperado,resultado);
+    }
+    @Test
+    public void testDivision() {
+        double resultado = op.division(1,0);
+        double esperado = 0;
+        assertEquals(esperado,resultado, 0.0);
     }
     
     
+    @Test
+    public void testDivision1() {
+        double resultado = op.division(3,1);
+        double esperado = 3;
+        assertEquals(esperado,resultado, 0.0);
+    }
 }
