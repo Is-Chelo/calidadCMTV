@@ -25,7 +25,11 @@ public class OperacionesTest {
         assertEquals(8,resultado);
     }
     
-    
+    @Test
+    public void testResta() {
+        int resultado = op.resta(1,4);
+        assertEquals(8,resultado);
+    }
     
     
 }
